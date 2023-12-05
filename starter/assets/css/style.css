@@ -1,5 +1,11 @@
 /* The CSS elements have been added following the structure of the HTML file */
 
+/* 
+**********************************************************************************************************
+Page baseline style
+**********************************************************************************************************
+*/
+
 /* Universal CSS properties */
 * {
     box-sizing: border-box;
@@ -14,9 +20,10 @@ body {
 
 /* 
 **********************************************************************************************************
-Section for Header style
+Header section
 **********************************************************************************************************
 */
+
 header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2a607c;
@@ -26,7 +33,7 @@ header {
     overflow: hidden;
 }
 
-/* Main heading with seo letters styled with background page */
+/* Main heading with seo letters styled with background page color */
 h1 {
     font-size: 48px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,7 +48,7 @@ h1 {
 
 /* 
 **********************************************************************************************************
-Section for Navigation bar style
+Navigation bar section
 **********************************************************************************************************
 */
 nav {
@@ -72,7 +79,7 @@ Main section
 **********************************************************************************************************
 */
 
-/* Wide image styling and source*/
+/* Wide image styling and source */
 .hero {
     height: 800px;
     width: 100%;
@@ -93,6 +100,7 @@ p {
     margin-left: 20px;
 }
 
+/* Set SEO and SMM images to float left, and ORM to float right */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -179,6 +187,7 @@ Footer section
     text-align: center;
 }
 
-.footer h2 {
+
+.footer h4 {
     font-size: 20px;
 }
