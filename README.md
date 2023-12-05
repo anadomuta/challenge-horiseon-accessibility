@@ -19,9 +19,9 @@ Please note that the layout is designed for desktop viewing. You may notice that
 
 ## Usage 
 
-The webpage can be access using this URL: https://anadomuta.github.io/challenge-horiseon-accessibility/
+The webpage can be accessed using this URL: https://anadomuta.github.io/challenge-horiseon-accessibility/
 
-To use the webpage, you can click on the sections in the navigation bar to get to the desired content section. Once on the bottom of the page, you can tap on the link "back to top" to navigate to the beginning of the page.
+To use the webpage, you can click on the different sections in the navigation bar to get to the desired content section. Once on the bottom of the page, you can tap on the link "back to top" to navigate to the beginning of the page.
 
 The screenshots below display the web page outlook.
 
