@@ -1,45 +1,53 @@
-/* The CSS elements have been added following the structure of the HTML file */
+/* The CSS elements have been ordered following the structure of the HTML file. Within these sections, related properties have been clustered based on recommendations from https://github.com/necolas/idiomatic-css. The order of properties is: 
+1. Positioning
+2. Display & Box Modek
+3. Typography 
+If a selector has multiple properties, the above order has been commented. If the selector's properties fall within the same category or includes one styling element, no comment has been added*/
 
-/* 
-**********************************************************************************************************
-Page baseline style
-**********************************************************************************************************
-*/
 
 /* Universal CSS properties */
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
-/* Set page background color to light grey */
+/* Typography */
 body {
     background-color: #d9dcd6;
 }
 
 /* 
-**********************************************************************************************************
+****************************
 Header section
-**********************************************************************************************************
+****************************
 */
 
 header {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    /* Positioning */
     padding: 20px;
-    font-size: 20px;
+
+    /* Display & Box Model */
+    background-color: #2a607c;
     overflow: hidden;
+
+    /* Typography */
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 
-/* Main heading with seo letters styled with background page color */
 h1 {
-    font-size: 48px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #ffffff;
-    background-color: #2a607c;
+    /* Positioning */
     float: left;
+
+    /* Display & Box Model */
+    background-color: #2a607c;
+
+    /* Typography */
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
 }
 
 .seo {
@@ -47,14 +55,18 @@ h1 {
 }
 
 /* 
-**********************************************************************************************************
+****************************
 Navigation bar section
-**********************************************************************************************************
+****************************
 */
+
 nav {
-    padding-top: 15px;
-    margin-right: 20px;
+    /* Positioning */
     float: right;
+    margin-right: 20px;
+    padding-top: 15px;
+
+    /* Typography */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
@@ -74,54 +86,65 @@ li a {
 }
 
 /* 
-**********************************************************************************************************
+****************************
 Main section 
-**********************************************************************************************************
+****************************
 */
 
-/* Wide image styling and source */
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-/* Content and images styling and float position */
 p {
     font-size: 16px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+.hero {
+    /* Positioning */
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-position: center;
+    background-size: cover;
+
+    /* Display & Box Model*/
+    height: 800px;
+    margin-bottom: 25px;
+    width: 100%;
 }
 
-/* Set SEO and SMM images to float left, and ORM to float right */
+.content {
+    /* Display & Box Model*/
+    display: inline-block;
+    margin-left: 20px;
+    width: 75%;
+}
+
 .float-right {
+    /* Positioning */
     float: right;
+
+    /* Display & Box Model*/
     margin-left: 25px;
 }
 
 .float-left {
+    /* Positioning */
     float: left;
+
+    /* Display & Box Model*/
     margin-right: 25px;
 }
 
-/* Articles */
+
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
+    /* Display & Box Model*/
+    height: 300px;
     margin-bottom: 20px;
     margin-right: 25px;
     padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    /* Typography */
     background-color: #0072bb;
     color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 .search-engine-optimization img,
@@ -138,17 +161,24 @@ p {
 }
 
 /* 
-**********************************************************************************************************
+****************************
 Aside section 
-**********************************************************************************************************
+****************************
 */
+
+
 .benefits {
-    margin-right: 20px;
-    padding: 30px;
+    /* Positioning */
     clear: both;
     float: right;
+
+    /* Display & Box Model*/
     width: 20%;
     height: 100%;
+    margin-right: 20px;
+    padding: 30px;
+
+    /* Typography */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
@@ -160,13 +190,6 @@ Aside section
     color: #ffffff;
 }
 
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
@@ -175,18 +198,30 @@ Aside section
     max-width: 150px;
 }
 
-/* 
-**********************************************************************************************************
-Footer section 
-**********************************************************************************************************
-*/
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
+    margin-bottom: 10px;
     text-align: center;
 }
 
+/* 
+****************************
+Footer section 
+****************************
+*/
+
+.footer {
+    /* Positioning */
+    clear: both;
+
+    /* Display & Box Model*/
+    padding: 30px;
+
+    /* Typography */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
 
 .footer h4 {
     font-size: 20px;

@@ -35,6 +35,8 @@ The following resources were used:
 2. Duckett J. (2011). HTML & CSS : design and build websites. Wiley ; Wiley distributor. p.317
 3. [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 4. [CSS Comments: Best Practices to Comment Like a Pro](https://www.positioniseverything.net/css-comments/)
+5. [Ordering CSS properties - GitHub blog](https://github.com/necolas/idiomatic-css)
+6. [Ordering CSS properties - Youtube video](https://www.youtube.com/watch?v=3Y03OSNw6zo)
 
 
 ## License
