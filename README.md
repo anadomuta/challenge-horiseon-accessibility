@@ -23,8 +23,8 @@ To use the webpage, you can click on the sections in the navigation bar to get t
 
 The screenshots below display the web page outlook.
 
-![Webpage Screenshot - First section](Assets/horiseon-screenshot-first-section.png)
-![Webpage Screenshot - Second section](Assets/horiseon-screenshot-second-section.png)
+![Webpage Screenshot - First section](starter/assets/images/horiseon-screenshot-first-section.png)
+![Webpage Screenshot - Second section](starter/assets/images/horiseon-screenshot-second-section.png)
 
 ## Credits
 
